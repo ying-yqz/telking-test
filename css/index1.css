@@ -1,0 +1,145 @@
+/*版心 居中对齐*/
+.w {
+  margin: auto;
+  width: 978px;
+}
+header {
+  background-color: #292929;
+  width: 100%;
+  height: 122px;
+  border-bottom: 5px solid #1e1e1e;
+}
+header .logo {
+  text-align: center;
+  margin: 0px auto;
+  line-height: 122px;
+}
+header .logo a {
+  display: block;
+  width: 704px;
+  height: 122px;
+}
+header .logo a img {
+  width: 85px;
+  height: 33px;
+}
+header .logo a:hover {
+  color: #58c93a;
+  border-bottom: 5px solid #58c93a;
+}
+header .nav-head {
+  margin: 0px auto;
+  text-align: center;
+  line-height: 122px;
+}
+header .nav-head a {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  width: 132px;
+  height: 122px;
+}
+header .nav-head a:hover {
+  color: #58c93a;
+  border-bottom: 5px solid #58c93a;
+}
+header .nav-head a:focus {
+  color: #58c93a;
+  border-bottom: 5px solid #58c93a;
+}
+footer {
+  height: 315px;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-top: 2px solid #e1e1e1;
+  text-align: center;
+  margin: 0px auto;
+}
+footer .foot-logo {
+  margin-top: 78px;
+}
+footer .copy {
+  font-size: 13px;
+  color: #a6a6a6;
+  margin-top: 28px;
+}
+footer .btn {
+  margin: 0px auto;
+  text-align: center;
+  height: 40px;
+  width: 240px;
+  margin-top: 38px;
+}
+footer .btn a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #e5e5e5;
+  text-align: center;
+  margin: 0px auto;
+  line-height: 40px;
+  margin-right: 20px;
+}
+footer .btn a:hover {
+  background-color: #516fad;
+}
+main .content {
+  padding-top: 40px;
+  width: 978px;
+  margin: 0 auto;
+  border-left: 1px solid #e1e0e0;
+  border-right: 1px solid #e1e0e0;
+}
+main .content .text img {
+  height: 306px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
+main .content .text .title {
+  width: 470px;
+}
+main .content .text .title span {
+  font-size: 28px;
+  color: #4e4e4e;
+}
+main .content .text .title p {
+  margin-top: 25px;
+  color: #606060;
+  font-size: 16px;
+}
+main .content .text .title .read_btn {
+  margin-top: 22px;
+}
+main .content .text .title .read_btn a {
+  display: block;
+  width: 184px;
+  height: 35px;
+  font-size: 16px;
+  color: #c2c2c2;
+  border: 2px solid #c2c2c2;
+  border-radius: 20px;
+  line-height: 35px;
+  text-align: center;
+}
+main .content .text .title .read_btn a:hover {
+  color: #58c93a;
+  border: 2px solid #58c93a;
+}
+main .nav {
+  height: 75px;
+  border-top: 1px solid #e1e0e0;
+  border-left: 1px solid #e1e0e0;
+  border-right: 1px solid #e1e0e0;
+  width: 978px;
+  margin: 0 auto;
+}
+main .nav .left,
+main .nav .right {
+  line-height: 75px;
+  margin: 0 28px;
+}
+main .nav .left a,
+main .nav .right a {
+  font-size: 18px;
+  color: #818181;
+}
