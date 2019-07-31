@@ -1,0 +1,260 @@
+body {
+  background-color: #f5f8f9;
+}
+.header {
+  background-color: #fff;
+  height: 102px;
+  line-height: 100px;
+  .logo {
+    width: 105px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #f92525;
+    color: #fff;
+  }
+  .layout {
+    span {
+      margin-right: 20px;
+      font-size: 18px;
+    }
+    .out {
+      width: 110px;
+      height: 40px;
+      line-height: 40px;
+      margin-top: 30px;
+      margin-left: 20px;
+      background-color: #f92525;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
+
+.nav {
+  height: 168px;
+  .title {
+    margin-top: 66px;
+    h1 {
+      font-size: 30px;
+      color: #262b2e;
+    }
+    p {
+      color: #262b2e;
+      opacity: 0.7;
+      font-size: 15px;
+      line-height: 40px;
+    }
+  }
+
+  .nav_side {
+    margin-top: 88px;
+    .nav_as {
+      a {
+        display: block;
+        margin-right: 30px;
+        padding-bottom: 8px;
+        &:hover {
+          border-bottom: 2px solid #cccfd0;
+        }
+        &:focus {
+          border-bottom: 2px solid #cccfd0;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  height: 252px;
+  background-color: #202124;
+  .logo {
+    width: 105px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 78px;
+    text-align: center;
+    background-color: #f92525;
+    color: #fff;
+  }
+  dl {
+    margin-top: 70px;
+    margin-left: 80px;
+    dt,
+    dd {
+      font-size: 13px;
+      line-height: 28px;
+      color: #ffffff;
+    }
+  }
+}
+
+.main {
+  .slide {
+    width: 560px;
+    height: 288px;
+    border: 10px solid #fff;
+    box-sizing: border-box;
+  }
+  .support {
+    width: 560px;
+    height: 288px;
+    background-color: #fff;
+    .top {
+      height: 110px;
+      line-height: 110px;
+      padding: 0 50px;
+      border-bottom: 1px solid #efeff0;
+      p {
+        font-size: 18px;
+        color: #262b2e;
+      }
+      a {
+        display: block;
+        width: 95px;
+        height: 40px;
+        border-radius: 2px;
+        border: solid 2px #262b2e;
+        color: #262b2e;
+        font-size: 13px;
+        opacity: 0.7;
+        text-align: center;
+        line-height: 40px;
+        margin-top: 34px;
+        cursor: pointer;
+      }
+    }
+
+    .bottom {
+      padding: 0 50px;
+      .user_title {
+        span,
+        em {
+          color: #262b2e;
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: 28px;
+        }
+        span {
+          margin-right: 70px;
+        }
+      }
+      .user1 {
+        span {
+          margin-top: 38px;
+          margin-right: 58px;
+        }
+        a {
+          display: block;
+          width: 65px;
+          height: 30px;
+          background-color: #5dd054;
+          border-radius: 2px;
+          font-size: 13px;
+          color: #ffffff;
+          line-height: 30px;
+          text-align: center;
+          margin-top: 28px;
+        }
+      }
+      .user2 {
+        span {
+          margin-top: 35px;
+          margin-right: 58px;
+        }
+        a {
+          display: block;
+          width: 65px;
+          height: 30px;
+          background-color: #5dd054;
+          border-radius: 2px;
+          font-size: 13px;
+          color: #ffffff;
+          line-height: 30px;
+          text-align: center;
+          margin-top: 28px;
+        }
+      }
+    }
+  }
+}
+
+.curve_big {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  .curve {
+    height: 350px;
+    background-color: #fff;
+  }
+}
+
+.data {
+  margin-bottom: 52px;
+  .pie {
+    width: 560px;
+    height: 377px;
+    background-color: #fff;
+  }
+  .columnar {
+    width: 560px;
+    height: 377px;
+    background-color: #fff;
+  }
+}
+
+// 轮播图
+.banner {
+  position: relative;
+}
+.banner .b_main {
+  position: relative;
+}
+.banner .b_main .b_m_pic {
+  position: relative;
+}
+.b_main .b_m_pic li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*小圆点的样式*/
+.b_list ul {
+  position: absolute;
+  right: 50%;
+  bottom: -260px;
+  transform: translate(50%);
+} /*这里的ul根据banner定位*/
+.b_list ul li {
+  width: 6px;
+  height: 8px;
+  float: left;
+  background: #c0c2c5;
+  margin-left: 5px;
+}
+.b_list ul .l_hover,
+.b_list ul .l_click {
+  //   border: 2px solid #333;
+  background: white;
+  height: 10px;
+}
+/*两边耳朵的样式*/
+.b_btn div {
+  position: absolute;
+  width: 24px;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+  top: 50%;
+  margin-top: 116px;
+  cursor: pointer;
+}
+.b_btn .b_left {
+  left: 5px;
+} /*移到左边*/
+.b_btn .b_right {
+  right: 5px;
+} /*移到右边*/
